@@ -1,6 +1,7 @@
 # MedEthicsQA: A Question Answering Benchmark for Medical Ethics Evaluation of LLMs
 
 This repo contains datasets and evaluation code for MedEthicsQA.
+
 Unzip the "MedEthicsQA.zip" and move "MedEthicsQA.json" to "dataset" folder
 
 project/
