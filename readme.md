@@ -1,26 +1,28 @@
-# MedEthicsQA: A Question Answering Benchmark for Medical Ethics Evaluation of LLMs
+# MedEthicsQA: A Comprehensive Question Answering Benchmark for Medical Ethics Evaluation of LLMs
+
 This repo contains datasets and evaluation code for MedEthicsQA.
 
-Unzip the "MedEthicsQA.zip" to get a full size of "MedEthicsQA" and move "MedEthicsQA.json" to "dataset" folder
+# 📁 model/
 
-project/
+The setup of evaluation model
 
-├── data/
+# 📄 MedEthicsQA_MCQ.json
 
-│ ├── MedEthicsQA.json           # the total 26.1k questions. encoded as "utf-8".
+multiple choice question answering subset of the MedEthicsQA, encoded as 'utf-8'
 
-│ ├── MedEthicsQA_sample.json    # small samples of questions. encoded as "utf-8". For illustration purpose.
+# 📄 MedEthicsQA_open.zip
 
-│ └── taxonomy.json              # hierarchical taxonomy
+open-ended question subset of MedEthicsQA.
 
-├── model/
+# 📄 calculate_acc.py
 
-│ └── model_api.py
+The script for calculating accuracy
 
-├── evaluation_results/
+# 📄 evaluation.py
 
-│ └── "model".csv                 #evaluation result of a model
+evaluation file
 
-├── evaluation.py                 # evaluation script
 
-└── calculate_acc.py
+# 📄 taxonomy.json
+
+The taxonomy of our proposed hierarchical taxonomy.
