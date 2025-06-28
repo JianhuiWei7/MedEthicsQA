@@ -66,7 +66,7 @@ if __name__ == "__main__":
     # only variable
     # choice=[deepseek-chat, gpt-4o-mini, qwen-plus, deepseek-reasoner, o1-mini]
     model = "gpt-4o-mini"
-    data_file = "datasets\MedEthicsQA_collection.json"
+    data_file = "MedEthicsQA_MCQ.json"
     
     with open(data_file, 'r', encoding='utf-8') as json_file:
         data = pd.read_json(json_file)
@@ -118,7 +118,7 @@ if __name__ == "__main__":
     tqdm.pandas()
     new_responses_df_list = []
     for index, data in enumerate(data_pecice):
-        results_filename2 = f"one_shot_COT/{model}_collection_mcq_{index}.csv"
+        results_filename2 = f"zero-shot/{model}_collection_mcq_{index}.csv"
         # if os.path.exists(results_filename2):
         #     print("File already exist")
         #     result = pd.read_csv(results_filename2)
