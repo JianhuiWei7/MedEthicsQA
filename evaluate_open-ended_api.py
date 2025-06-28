@@ -21,7 +21,7 @@ if __name__ == "__main__":
     # only variable
     # choice=[deepseek-chat, gpt-4o-mini, qwen-plus, deepseek-reasoner, o1-mini]
     model = "gpt-4o-mini"
-    data_file = "datasets\MedEthicsQA_open_labeled.json"
+    data_file = "MedEthicsQA_open.json"
     with open(data_file, 'r', encoding='utf-8') as json_file:
         data = pd.read_json(json_file)
         data = data[['question', 'answer', 'id']]
