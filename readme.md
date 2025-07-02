@@ -39,7 +39,7 @@ script for evaluate the responses of open-ended questions from LLM to the ground
 The taxonomy of our proposed hierarchical taxonomy.
 
 If you find our dataset useful, please cite our paper:
-
+```bibtex
 @misc{wei2025medethicsqacomprehensivequestionanswering,
       title={MedEthicsQA: A Comprehensive Question Answering Benchmark for Medical Ethics Evaluation of LLMs}, 
       author={Jianhui Wei and Zijie Meng and Zikai Xiao and Tianxiang Hu and Yang Feng and Zhijie Zhou and Jian Wu and Zuozhu Liu},
